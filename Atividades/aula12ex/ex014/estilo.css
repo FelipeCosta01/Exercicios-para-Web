@@ -1,0 +1,36 @@
+body{
+background-color: aquamarine;
+font: normal 15pt Arial;
+}
+
+header{
+    line-height: 50px;
+    text-align: center; /*centralizando texto*/
+    font-size: 50px; /*tamanho da fonte*/
+    color: rgb(255, 255, 255);
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; /*estilizando a borda*/
+    padding: 200px; /*caixa branca*/
+    width: 350px; 
+    margin: auto; /*centralizando*/ 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274); /*sombra na borda*/
+}
+
+div#msg{
+        text-align: center;
+        padding: 8px;
+        font: bold 15pt Arial;
+}
+
+div#foto{
+    text-align: center; /*centralizando a imagem*/
+}
+
+footer{
+text-align: center;
+font-style: italic; /*alterando tipo da fonte*/
+
+}

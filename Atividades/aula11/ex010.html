@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: aquamarine;
+    }
+    div#res{
+        background-color: black;
+        color: aliceblue;
+        width: 650px;
+        height: 55px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+</style>
+    
+</head>
+<body>
+    <h1>Sistema de multa</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="vel">
+    <input type="button" value="Verificar" onclick="btnVer()">
+    <div id="res">Resultado</div>
+
+    <script>
+        function btnVer(){
+            var velo = document.getElementById('vel')
+            var resultado = document.getElementById('res')
+
+            var velo1 = Number(velo.value)
+
+            if(velo1 > 110){
+                resultado.style.color = 'red'
+                resultado.innerHTML = (`Você esta a ${velo1} km/h e acima de velocidade. Multado!`)
+            }else{
+                if(velo1 == 110){
+                    resultado.innerHTML = (`CUIDADO. Voce esta no limite.`)
+                    resultado.style.color = 'yellow'
+                }else{
+                resultado.style.color = 'green'
+                resultado.innerHTML = (`Boa viagem, Dirija em segurança!`)
+            }
+            }
+        }
+        
+        
+    </script>
+</body>
+
+</html>

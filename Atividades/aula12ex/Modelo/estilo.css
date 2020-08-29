@@ -1,0 +1,33 @@
+body{
+background-color: aquamarine;
+font: normal 15pt Arial;
+}
+
+header{
+    line-height: 50px;
+    text-align: center; /*centralizando texto*/
+    font-size: 50px; /*tamanho da fonte*/
+    color: aliceblue;
+}
+
+section{
+    background-color: aliceblue;
+    border-radius: 10px; /*estilizando a borda*/
+    padding: 200px; /*caixa branca*/
+    width: 350px; 
+    margin: auto; /*centralizando*/ 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274); /*sombra na borda*/
+
+    
+}
+
+div#caixa1{
+        
+}
+
+
+footer{
+text-align: center;
+font-style: italic;
+
+}
